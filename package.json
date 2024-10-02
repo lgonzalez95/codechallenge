@@ -1,0 +1,23 @@
+{
+  "name": "framework-base",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-ui": "wdio wdio.conf.js --suite ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.1.2",
+    "@wdio/json-reporter": "^9.1.2",
+    "@wdio/junit-reporter": "^9.1.2",
+    "@wdio/local-runner": "^9.1.2",
+    "@wdio/mocha-framework": "^9.1.2",
+    "mocha": "^10.7.3",
+    "pactum": "^3.7.1",
+    "wdio-wait-for": "^3.0.11"
+  }
+}
